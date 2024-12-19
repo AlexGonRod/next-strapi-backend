@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "navs",
+  "info": {
+    "singularName": "nav",
+    "pluralName": "navs",
+    "displayName": "Nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "items": {
+      "type": "string"
+    },
+    "collections": {
+      "type": "string"
+    },
+    "gifts": {
+      "type": "string"
+    },
+    "new": {
+      "type": "string"
+    },
+    "outlet": {
+      "type": "string"
+    }
+  }
+}
